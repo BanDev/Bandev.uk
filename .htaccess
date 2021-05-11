@@ -9,4 +9,8 @@ RewriteRule . /index.php [L]
 </IfModule>
 # END WordPres
 
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 ErrorDocument 404 /assets/errors/404.html
