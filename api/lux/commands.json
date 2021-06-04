@@ -16,8 +16,8 @@
       "name": "help",
       "description": "Lists a list of commands and information about the CLI",
       "examples": ["lux help"],
-      "build_no": 1
+      "build_no": 0
     }
   ],
-  "build_no": 1
+  "build_no": 0
 }
