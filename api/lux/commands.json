@@ -8,7 +8,7 @@
     },
     {
       "name": "query",
-      "description": "Returns data about the state of a device.",
+      "description": "Returns data about the state of a device",
       "examples": ["lux query 0", "lux query 23"],
       "build_no": 0
     },
