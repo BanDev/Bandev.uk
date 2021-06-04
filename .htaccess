@@ -6,3 +6,5 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 RewriteMap tolowercase int:tolower 
 RewriteRule ^(.*)$ ${tolowercase:$1}
+
+ErrorDocument 404 /assets/errors/404.html
