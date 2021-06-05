@@ -13,6 +13,24 @@
       "build_no": 0
     },
     {
+      "name": "turn",
+      "description": "Turn a device on or off",
+      "examples": ["lux turn 0 on", "lux turn 0 off"],
+      "build_no": 0
+    },
+    {
+      "name": "brightness",
+      "description": "Alter the brightness of a device",
+      "examples": ["lux brightness 0 100", "lux brightness 0 69"],
+      "build_no": 0
+    },
+    {
+      "name": "color",
+      "description": "Alter the color of a device",
+      "examples": ["lux color 0 #0067f4", "lux color 0 #ff0000"],
+      "build_no": 0
+    },
+    {
       "name": "help",
       "description": "Lists a list of commands and information about the CLI",
       "examples": ["lux help"],
