@@ -35,7 +35,7 @@
       "description": "Connet Lux to your Govee account using your API Key",
       "examples": ["lux setup"],
       "build_no": 0
-    }
+    },
     {
       "name": "help",
       "description": "Lists a list of commands and information about the CLI",
