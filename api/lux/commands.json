@@ -32,7 +32,7 @@
     },
     {
       "name": "setup",
-      "description": "Connet Lux to your Govee account using your API Key",
+      "description": "Connect Lux to your Govee account using your API Key",
       "examples": ["lux setup"],
       "build_no": 0
     },
