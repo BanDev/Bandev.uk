@@ -83,7 +83,52 @@
       "description": "Lists a list of commands and information about the CLI",
       "examples": ["lux help"],
       "build_no": 1
+    },
+    
+    
+        
+    {
+      "name": "devices",
+      "description": "Lists the devices registered on the user's account",
+      "examples": ["lux devices", "lux devices complex", "lux devices simple"],
+      "build_no": 3
+    },
+    {
+      "name": "query",
+      "description": "Returns data about the state of a device",
+      "examples": ["lux query 0", "lux query 23"],
+      "build_no": 3
+    },
+    {
+      "name": "turn",
+      "description": "Turn a device on or off",
+      "examples": ["lux turn 0 on", "lux turn 0 off"],
+      "build_no": 3
+    },
+    {
+      "name": "brightness",
+      "description": "Alter the brightness of a device",
+      "examples": ["lux brightness 0 100", "lux brightness 0 69"],
+      "build_no": 3
+    },
+    {
+      "name": "color",
+      "description": "Alter the color of a device",
+      "examples": ["lux color 0 0067f4", "lux color 0 ff0000"],
+      "build_no": 3
+    },
+    {
+      "name": "setup",
+      "description": "Connect Lux to your Govee account using your API Key",
+      "examples": ["lux setup"],
+      "build_no": 3
+    },
+    {
+      "name": "help",
+      "description": "Lists a list of commands and information about the CLI",
+      "examples": ["lux help"],
+      "build_no": 3
     }
   ],
-  "build_no": 1
+  "build_no": 3
 }
